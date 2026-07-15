@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    urls:
+      - name: Microservicio Pacientes
+        url: /api/v1/pacientes/v3/api-docs
+      - name: Microservicio Medicos
+        url: /api/v1/medicos/v3/api-docs
+      - name: Microservicio Especialidades
+        url: /api/v1/especialidades/v3/api-docs
+      - name: Microservicio Citas Medicas
+        url: /api/v1/citas/v3/api-docs
+      - name: Microservicio Fichas Clinicas
+        url: /api/v1/fichas/v3/api-docs
+      - name: Microservicio Recetas
+        url: /api/v1/recetas/v3/api-docs
+      - name: Microservicio Examenes
+        url: /api/v1/examenes/v3/api-docs
+      - name: Microservicio Hospitalizacion
+        url: /api/v1/hospitalizacion/v3/api-docs
+      - name: Microservicio Urgencias
+        url: /api/v1/urgencias/v3/api-docs
+      - name: Microservicio Pagos
+        url: /api/v1/pagos/v3/api-docs
