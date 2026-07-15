@@ -1,0 +1,7 @@
+**/target/
+**/.idea/
+**/.vscode/
+**/*.jar
+.metadata/
+bin/
+dependency-reduced-pom.xml
