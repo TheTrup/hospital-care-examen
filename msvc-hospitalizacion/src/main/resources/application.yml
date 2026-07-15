@@ -1,12 +1,12 @@
 server:
-  port: 8088
+  port: 8090
   forward-headers-strategy: framework
 
 spring:
   application:
-    name: msvc-hospitalizacion
+    name: msvc-pagos
   datasource:
-    url: jdbc:h2:mem:hospitalizaciondb;DB_CLOSE_DELAY=-1
+    url: jdbc:h2:mem:pagosdb;DB_CLOSE_DELAY=-1
     driver-class-name: org.h2.Driver
     username: sa
     password: 
@@ -27,7 +27,7 @@ eureka:
 
 springdoc:
   api-docs:
-    path: /api/v1/hospitalizacion/v3/api-docs
+    path: /api/v1/pagos/v3/api-docs
   swagger-ui:
     path: /swagger-ui.html
     operations-sorter: alpha # Ordena los endpoints alfabéticamente

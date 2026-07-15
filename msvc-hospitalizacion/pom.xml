@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hospital</groupId>
-	<artifactId>msvc-hospitalizacion</artifactId>
+	<artifactId>msvc-pagos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>
@@ -58,9 +58,9 @@
 
 		<!-- OpenAPI / Swagger UI para Spring Boot 3 -->
 		<dependency>
-    		<groupId>org.springdoc</groupId>
+   			<groupId>org.springdoc</groupId>
     		<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-    		<version>2.5.0</version>
+   			<version>2.5.0</version>
 		</dependency>
 
 		<dependency>
